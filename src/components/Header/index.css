@@ -1,0 +1,60 @@
+/* Write your CSS code here */
+.website-logo {
+  width: 150px;
+}
+.logout-icon {
+  width: 20px;
+  height: 20px;
+}
+.logo-section {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 100%;
+}
+.icons-container {
+  list-style: none;
+  padding-left: 0px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  background-color: #e6f6ff;
+  height: 45px;
+}
+.nav-icon {
+  height: 20px;
+  width: 20px;
+}
+.nav-text-items-list {
+  list-style: none;
+  padding-left: 0px;
+  display: flex;
+  align-items: center;
+  display: none;
+}
+
+.nav-text-item {
+  font-family: 'roboto';
+  font-size: 18px;
+  color: #475569;
+  margin-right: 20px;
+}
+.logout-btn {
+  background-color: #0b69ff;
+  height: 30px;
+  width: 90px;
+  color: #ffffff;
+  border: none;
+  border-radius: 4px;
+}
+@media (min-width: 768px) {
+  .icons-container {
+    display: none;
+  }
+  .logout-icon {
+    display: none;
+  }
+  .nav-text-items-list {
+    display: flex;
+  }
+}

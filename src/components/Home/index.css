@@ -1,0 +1,61 @@
+/* Write your CSS code here */
+.home-page-img {
+  width: 200px;
+}
+.home-page-text {
+  font-family: 'Roboto';
+  font-size: 20px;
+  color: #64748b;
+  text-align: center;
+}
+.shop-now-btn {
+  font-family: 'Roboto';
+  border: none;
+  background-color: #0b69ff;
+  color: #ffffff;
+  font-size: 20px;
+  border-radius: 4px;
+  height: 40px;
+  width: 130px;
+}
+.home-page-heading {
+  font-family: 'Roboto';
+  font-size: 25px;
+  color: #1e293b;
+  text-align: center;
+}
+
+.home-text-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.home-page-responsive-container {
+  width: 100%;
+}
+.home-page-lg-img {
+  display: none;
+}
+
+@media (min-width: 768px) {
+  .home-page-responsive-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    min-height: 100vh;
+  }
+  .home-page-img {
+    display: none;
+  }
+  .home-page-lg-img {
+    display: flex;
+    width: 35%;
+  }
+  .home-page-heading {
+    font-size: 35px;
+  }
+  .home-page-text {
+    font-size: 25px;
+  }
+}
